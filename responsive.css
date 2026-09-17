@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+
+    .encabezado {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .portada {
+        flex-direction: column;
+        padding: 40px 6%;
+    }
+
+    .contenido-portada h2 {
+        font-size: 30px;
+    }
+
+    .portada img {
+        width: 100%;
+    }
+
+    .estadisticas {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .galeria {
+        grid-template-columns: 1fr;
+    }
+
+}

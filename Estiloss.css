@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #172033;
+    transition: 0.3s;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+    background: #101827;
+    color: white;
+}
+
+.logo h1 {
+    color: #38bdf8;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.portada {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 80px 8%;
+    background: #dbeafe;
+}
+
+.contenido-portada {
+    max-width: 500px;
+}
+
+.contenido-portada span {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.contenido-portada h2 {
+    font-size: 42px;
+    margin: 20px 0;
+}
+
+.contenido-portada p {
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.portada img {
+    width: 45%;
+    border-radius: 20px;
+}
+
+.boton {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.estadisticas {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 40px;
+    text-align: center;
+    background: white;
+}
+
+.estadisticas h3 {
+    font-size: 30px;
+    color: #2563eb;
+}
+
+.seccion {
+    padding: 60px 8%;
+}
+
+.seccion h2 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 280px;
+    box-shadow: 0 5px 20px #0001;
+}
+
+.tarjeta h3 {
+    margin-bottom: 15px;
+}
+
+.tarjeta p {
+    line-height: 1.6;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+footer {
+    background: #101827;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.oscuro {
+    background: #0f172a;
+    color: white;
+}
+
+.oscuro .tarjeta,
+.oscuro .estadisticas {
+    background: #1e293b;
+    color: white;
+}
+
+.oscuro .portada {
+    background: #1e293b;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EduFit | Contacto</title>
+
+    <link rel="stylesheet" href="Estiloss.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+
+        <div class="logo">
+            <h1>EDUCACIÓN FÍSICA</h1>
+        </div>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="deportes.html">Deportes</a>
+            <a href="entrenamiento.html">Entrenamiento</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+
+        <button id="modoOscuro">🌙</button>
+
+    </header>
+
+
+    <main>
+
+        <section class="seccion">
+
+            <h2>Contactanos</h2>
+
+            <p>
+                ¿Tenés alguna pregunta sobre Educación Física?
+                Completá el siguiente formulario.
+            </p>
+
+        </section>
+
+
+        <section class="seccion">
+
+            <form id="formularioContacto">
+
+                <label for="nombre">
+                    Nombre completo:
+                </label>
+
+                <input type="text"
+                       id="nombre"
+                       name="nombre"
+                       placeholder="Escribí tu nombre"
+                       required>
+
+                <br><br>
+
+
+                <label for="correo">
+                    Correo electrónico:
+                </label>
+
+                <input type="email"
+                       id="correo"
+                       name="correo"
+                       placeholder="ejemplo@gmail.com"
+                       required>
+
+                <br><br>
+
+
+                <label for="deporte">
+                    Deporte favorito:
+                </label>
+
+                <select id="deporte" name="deporte">
+
+                    <option value="">Seleccioná una opción</option>
+
+                    <option value="futbol">Fútbol</option>
+
+                    <option value="voley">Vóley</option>
+
+                    <option value="atletismo">Atletismo</option>
+
+                    <option value="otro">Otro</option>
+
+                </select>
+
+                <br><br>
+
+
+                <label for="mensaje">
+                    Mensaje:
+                </label>
+
+                <br>
+
+                <textarea id="mensaje"
+                          name="mensaje"
+                          placeholder="Escribí tu mensaje"
+                          rows="6"
+                          required></textarea>
+
+                <br><br>
+
+
+                <button type="submit">
+                    Enviar mensaje
+                </button>
+
+            </form>
+
+            <p id="respuestaFormulario"></p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026| Contacto</p>
+    </footer>
+
+
+    <script src="modoo.oscuro.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
